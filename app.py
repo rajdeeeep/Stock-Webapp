@@ -35,7 +35,7 @@ st.subheader('Closing price vs Time chart📉 ')
 
 st.subheader('Closing price vs Time Chart with 50MA📉 ')
 
-ma50 =df.Close.rolling(50).mean()
+# ma50 =df.Close.rolling(50).mean()
 fig = plt.figure(figsize=(12,6))
 plt.plot(ma50 )
 plt.plot(df.Close)
