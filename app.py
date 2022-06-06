@@ -27,7 +27,7 @@ st.subheader('Data from 2010- 2021')
 
 st.subheader('Closing price vs Time chart📉 ')
 # fig = plt.figure(figsize=(12,6))
-plt.plot(df.Close , 'b')
+# plt.plot(df.Close , 'b')
 st.pyplot(fig)
 
 
