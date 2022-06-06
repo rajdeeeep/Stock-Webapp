@@ -21,8 +21,8 @@ user_input = st.text_input('Enter Stock Ticker 💸', 'ITC.NS')
 #Describing Data
 
 st.subheader('Data from 2010- 2021')
-st.write(df.describe())
-
+# st.write(df.
+# describe())
 #Visualizations
 
 st.subheader('Closing price vs Time chart📉 ')
