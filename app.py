@@ -1,7 +1,7 @@
 from importlib import import_module
 import pandas as pd
 import numpy as np
-import pandas_datareader as pdr
+
 import matplotlib as plot
 import matplotlib.pyplot as plt 
 from keras.models import load_model
