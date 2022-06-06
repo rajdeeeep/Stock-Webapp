@@ -15,7 +15,7 @@ st.title('Stocks Moving Average📉 ')
 
 
 user_input = st.text_input('Enter Stock Ticker 💸', 'ITC.NS')
-df = pdr.DataReader( user_input, 'yahoo', start, end)
+
 
 
 #Describing Data
