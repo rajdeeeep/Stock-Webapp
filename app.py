@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 import matplotlib as plot
-import matplotlib.pyplot as plt 
+
 from keras.models import load_model
 import streamlit as st
 
